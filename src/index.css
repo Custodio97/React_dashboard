@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo:wght@300;400;500&display=swap");
+
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --primary-color:#9ccc3d;
+  --background-color:rgba(3,3,27,0.7);
+  --dark-background-color:rgba(2,2,15);
+  --font:"Exo",sans-serif;
+}
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  background-image: url('./assets/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: var(--font);
+  height: max-content;
+  overflow-x: hidden;
+}
